@@ -11,9 +11,12 @@
     right: 0;
     left: 1px;
     z-index: 1030;
+    height: 49px;
+    /* background-color: #007bff; */
   }
   
   .navcontainer {
+    /* background-color: #007bff; */
     height: 60px;
     align-items: center;
     padding-right: 20px;
