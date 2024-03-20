@@ -44,7 +44,7 @@ const Nav = () => {
                         <li><a className="nav-link scrollto" href="#features">Timeline</a></li>
                         <li><a className="nav-link scrollto" href="/event">Events</a></li>
                         <li className="nav-link dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
-                            <a className="dropdown-toggle" href="#" role="button" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
+                            <a className="dropdown-toggle" href="#" role="button" >
                                 More
                             </a>
                             <ul className={`dropdown-menu ${dropdownMenuOpen ? 'dropdown-menu-show' : 'menu-hide'}`} style={{ visibility: dropdownMenuOpen ? 'visible' : 'hidden' }}>
