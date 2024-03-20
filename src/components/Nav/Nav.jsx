@@ -37,7 +37,6 @@ const Nav = () => {
     };
   }, []);
   return (
-    <BrowserRouter>
     <header id="navheader" className={`fixed-top ${scrollPosition > 100 ? 'black-bg' : ''}`}>
       <div className="navcontainer" >
         <a href='/' className="logo-container"><img src={logo} alt="Logo" className="logo me-auto" style={{"height":"110px"}}/></a>
@@ -51,7 +50,7 @@ const Nav = () => {
               </a></li>
             {/* <li><a className="nav-link scrollto" href="#header">Devcation`24</a></li> */}
             <li><a className="nav-link scrollto" href="#features">Timeline</a></li>
-            <li><a className="nav-link scrollto" href="#pricing">Events</a></li>
+            <li><a className="nav-link scrollto" href="/event">Events</a></li>
             <li className="nav-link dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
               <a className="dropdown-toggle" href="" role="button" >
                 More
@@ -61,6 +60,7 @@ const Nav = () => {
                 <li><a className="dropdown-item" href="#Prizes"><Link to='#prizes' smooth>Prizes</Link></a></li>
                 <li><a className="dropdown-item" href="#team">Team</a></li>
                 <li><a className="dropdown-item" href="#Sponsors"><Link to='#sponsors' smooth>Sponsors</Link></a></li>
+
               </ul>
             </li>
             <li><a className="nav-link scrollto" href=""><Link to='#contact' smooth>Contact</Link></a></li>
@@ -79,7 +79,6 @@ const Nav = () => {
         </div>
       </div>
     </header>
-    </BrowserRouter>
   );
 };
 

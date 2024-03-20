@@ -6,22 +6,32 @@ const Header = () => {
   };
   return (
     <div className="main-header" id="header">
-    <div className="header-container" id="header">
-      <div className="text-container">
-        <h2 className="title textWelcome">Welcome to</h2>
-        <h2 className="title textDev">Devcation`24</h2>
-        <button className="button " onClick={Join}>
-          <img  className="mr-2 w-8 h-8" src="favicon.png" alt="arrow" />
-          Go to Projects</button>
-      </div>
-      <div className="image-container">
-        <img src="header.png" alt="header" className="image" />
-      </div>
 
+      <div className="header-container" id="header">
+        <div className="text-container">
+          <h2 className="title textWelcome">Welcome to</h2>
+          <h2 className="title textDev">Devcation`24</h2>
+          <button className="button " onClick={Join}>
+            <img className="mr-2 w-8 h-8" src="favicon.png" alt="arrow" />
+            Go to Projects</button>
+        </div>
+
+        <div className="image-container">
+          <div className="imgBorderWraper border-black border-4 text-white   " >
+
+            <div className=" imgWraperstrap flex bg-black w-auto h-8 m-2 justify-end items-center text-[#F4E1B9]">
+              <div className="border-2 border-[#f1debc] w-6 h-6 mr-1 text-center text-bold">?</div>
+            </div>
+            <img src="header.png" alt="header" className="image" />
+
+
+          </div>
+        </div>
+
+
+      </div>
     </div>
-    </div>
-   
-    
+
   );
 };
 
