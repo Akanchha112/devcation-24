@@ -19,12 +19,9 @@
     align-items: center;
     padding: 10px;
     width: 100%;
-<<<<<<< HEAD
-=======
     margin-top: 110px;
->>>>>>> b9186883abf96da171ebc2bbe3236f600d6e515a
 
-    margin-top: 100px;
+    /* flex-direction: row; */
 
     margin-bottom: 0px;
 }
@@ -42,8 +39,7 @@
   
   .title {
     font-family: "Montserrat", sans-serif;
-    font-size: 4rem;
-    /* font-size: 64px; */
+    font-size: 64px;
     line-height: 1.2;
     font-weight: 900;
     letter-spacing: 1.5px;
@@ -77,12 +73,8 @@
     background-color: #4F8CFF;
   }
   .image-container {
-<<<<<<< HEAD
-    /* width: 100%; */
-=======
     width: 50%;
 
->>>>>>> b9186883abf96da171ebc2bbe3236f600d6e515a
     /* height:200px; */
     /* position:relative; */
     /* height:200px; */
@@ -93,42 +85,18 @@
     /* max-width: 80%;  */
     height: 500px;
     /* width:50%; */
-    /* margin-left: 70px; */
+    margin-left: 70px;
     /* position:absolute;
     top:0; */
   }
-  .image-container-inner {
-    position: relative;
-  }
-  
-  .image-container-inner .flex {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-  .imgBorderWraper{
-    margin-left: 100px;
-    width: 60%;
-    padding: 0px;
-  }
+
   /* Media Query for smaller screens */
-  @media only screen and (max-width: 1200px){
-    .title{
-      font-size: 3.5rem;
-    }
-  }
-  @media only screen and (max-width: 1068px){
-    .title{
-      font-size: 3rem;
-    }
-  }
   @media only screen and (max-width: 768px) {
     .header-container {
       margin-top: 10rem;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-top: 250px;
     }
   
     .text-container,
@@ -138,23 +106,7 @@
       align-items: center;
       flex-direction: column;
       width: 100%;
-      margin-bottom: 30px;
-    }
-    .text-container{
-      order: 2;
-    }
-    .image-container{
-      height: 80%;
-      margin-left: 0;
-
-    }
-    .imgBorderWraper {
-      /* height: 70%; */
-      width: 40%;
-      margin-left: 0px;
-    }
-    .imgWraperstrap{
-      width: 50%;
+      margin-bottom: 20px;
     }
   }
   
