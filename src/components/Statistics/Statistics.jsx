@@ -3,7 +3,7 @@ import "./Statistics.css";
 
 const Statistics = () => {
     return (
-        <div id="call-to-action" className="call-to-action">
+        <div id="call-to-action" className="call-to-action" style={{padding:"0px 60px"}}>
         <div className="container aos-init aos-animate" data-aos="zoom-out">
           <div className="row">
             <div className="text-center text-lg-start">
