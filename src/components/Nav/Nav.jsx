@@ -35,7 +35,9 @@ const Nav = () => {
     return (
         <header id="navheader" className={`fixed-top ${scrollPosition > 100 ? 'black-bg' : ''}`}>
             <div className="navcontainer">
+
                 <a href='/' className="logo-container"><img src="gdsc-logo.png" alt="Logo" className="logoa " style={{ "height": "70px" , "width":"100%"}} /></a>  /**/
+
                 <nav id="navbar" className={`navbar ${dropdownNav ? 'dropdown-nav' : 'nav-hide'}`}>
                     <ul>
                         <li><a className="nav-link scrollto active" href="#header">Home</a></li>
@@ -44,7 +46,9 @@ const Nav = () => {
                         <li><a className="nav-link scrollto" href="#features">Timeline</a></li>
                         <li><a className="nav-link scrollto" href="/event">Events</a></li>
                         <li className="nav-link dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
-                            <a className="dropdown-toggle" href="#" role="button" >  {/**/}
+
+                            <a className="dropdown-toggle" href="#" role="button" >
+
                                 More
                             </a>
                             <ul className={`dropdown-menu ${dropdownMenuOpen ? 'dropdown-menu-show' : 'menu-hide'}`} style={{ visibility: dropdownMenuOpen ? 'visible' : 'hidden' }}>
